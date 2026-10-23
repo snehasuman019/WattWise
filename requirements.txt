@@ -1,0 +1,6 @@
+
+pyspark==4.0.1
+streamlit
+plotly
+pandas
+scikit-learn
