@@ -2,6 +2,10 @@
 
 WattWise is a data analytics project that uses **Apache PySpark** to process household electricity consumption data and identify consumption patterns, unusual usage days, and hourly consumption trends. A Streamlit dashboard presents the results through interactive visualizations.
 
+## 🚀 Live Demo
+
+**Explore the deployed dashboard here:** [WattWise — Smart Electricity Consumption Analyzer](https://wattwise-electricity-consumption.streamlit.app/)
+
 ## Features
 
 - **Large-scale data processing:** Clean and transform household electricity records using PySpark.
@@ -49,7 +53,7 @@ This project uses the **Individual Household Electric Power Consumption** datase
 
 The original dataset contains household electricity measurements recorded at approximately one-minute intervals. The project transforms the readings into hourly consumption summaries.
 
-Dataset page: https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption
+Dataset page: [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption)
 
 Download the dataset and place the original text file at:
 
@@ -71,11 +75,9 @@ The raw data and the large cleaned CSV are excluded from Git to keep the reposit
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/snehasuman019/WattWise.git
 cd WattWise
 ```
-
-Replace `YOUR_GITHUB_REPOSITORY_URL` with the URL of your GitHub repository.
 
 ### 2. Create and activate a virtual environment
 
@@ -95,7 +97,7 @@ pip install -r requirements.txt
 
 ## Run the Project
 
-Run the processing pipeline in this order after placing the source dataset in `data/raw/`:
+After placing the source dataset in `data/raw/`, run the processing pipeline in this order:
 
 ```bash
 python src/data_processing.py
@@ -139,11 +141,14 @@ The project uses the IQR method to flag unusually low or high daily consumption 
 - Extend the model to forecast consumption beyond the available dataset.
 - Improve model validation and compare additional forecasting approaches.
 - Add configurable date ranges and more dashboard insights.
-- Explore deployment options for sharing the dashboard online.
+- Explore additional deployment and monitoring options.
 
 ## Author
 
 **Sneha Suman**
 
 B.Tech — Computer Science and Engineering  
-Area of interest: Data Science and Big Data Analytics
+Area of Interest: Data Science and Big Data Analytics
+
+**GitHub:** [snehasuman019](https://github.com/snehasuman019)  
+**Live Dashboard:** [WattWise](https://wattwise-electricity-consumption.streamlit.app/)
