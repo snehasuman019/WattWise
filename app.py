@@ -405,4 +405,4 @@ comparison_chart = px.bar(
     }
 )
 
-st.plotly_chart(comparison_chart, use_container_width=True)c
+st.plotly_chart(comparison_chart, use_container_width=True)
